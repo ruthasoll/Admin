@@ -1,0 +1,25 @@
+.sidebar {
+  width: 200px;
+  background: #b9cde2;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+}
+
+.link {
+    font-size: xx-large;
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #333;
+  padding: 2rem;
+}
+
+.activeLink {
+  font-weight: bold;
+  color: #007bff;
+}
+a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
